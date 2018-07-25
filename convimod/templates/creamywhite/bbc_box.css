@@ -1,0 +1,115 @@
+/*
+  bbcode box reloaded
+  by reddog - http://www.reddevboard.com
+  cascaded style sheet
+*/
+.codetitle {
+	border : 2px dashed #5c74eb;
+	border-bottom : 1px dotted #5c74eb;
+	font-size : 12px;
+	color : #5c74eb;
+	padding : 5px;
+	width : 90%;
+	font-weight : bold;
+	text-align : left;
+	margin-top : 10px;
+	background : url(images/bbcode_code.gif) no-repeat 100% 50%;
+}
+.codediv {
+	border : 2px dashed #5c74eb;
+	font-family : Courier, "Courier New", sans-serif;
+	font-size : 12px;
+	color : #006600;
+	border-top : 0;
+	padding : 5px;
+	overflow : auto;
+	width : 90%;
+	height : 50px;
+	text-align : left;
+}
+a.codelink:link {
+	text-decoration : none;
+	color : #9aef9e;
+}
+a.codelink:visited {
+	text-decoration : none;
+	color : #9aef9e;
+}
+a.codelink:hover {
+	text-decoration : none;
+	color : #4ae352;
+}
+.quotetitle {
+	border : 2px dashed #df8900;
+	border-bottom : 1px dotted #df8900;
+	font-size : 12px;
+	color : #df8900;
+	padding : 5px;
+	width : 90%;
+	font-weight : bold;
+	text-align : left;
+	margin-top : 10px;
+	background : url(images/bbcode_quote.gif) no-repeat 100% 50%;
+}
+.quotediv {
+	border : 2px dashed #df8900;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #444444;
+	border-top : 0;
+	padding : 5px;
+	overflow : auto;
+	width : 90%;
+	max-height : 200px;
+	text-align : left;
+}
+.hidetitle {
+	border : 2px dashed #c0c0c0;
+	border-bottom : 1px dotted #c0c0c0;
+	font-size : 12px;
+	color : #808080;
+	padding : 5px;
+	width : 90%;
+	font-weight : bold;
+	text-align : left;
+	margin-top : 10px;
+	background : url(images/bbcode_hide.gif) no-repeat 100% 50%;
+}
+.hidediv {
+	border : 2px dashed #c0c0c0;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #444444;
+	border-top : 0;
+	padding : 5px;
+	width : 90%;
+	text-align : left;
+}
+.spoiltitle {
+	font-size : 12px;
+	width : 90%;
+	font-weight : bold;
+	text-align : left;
+}
+.spoildiv {
+	border : 2px dashed #d1d7dc;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #444444;
+	padding : 5px;
+	overflow : auto;
+	width : 90%;
+	max-height : 200px;
+	text-align : left;
+}
+input.spoilbtn {
+	background-color : #EFEFEF;
+	border-color : #000000;
+	color : #000000;
+	width : 50px;
+	margin : 1px;
+	padding : 0;
+	cursor : pointer;
+	font-size : 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}

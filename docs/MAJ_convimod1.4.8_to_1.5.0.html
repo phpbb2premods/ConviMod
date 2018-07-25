@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="ltr">
+<head>
+  <title>ConviMod pr&eacute;MOD 1.5.x</title>
+<style type="text/css">
+<!--
+html, body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: black;
+  background: white url("images/background.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td colspan="2"> <img src="images/ezcom.png" alt="EzCom Team" border="0"> <br>
+      <br>
+      <span class="postbody">Bonjour ou bonsoir <img src="images/smile.gif" alt="Smile" border="0">,<br /><br />
+<span style="font-weight: bold;">Bienvenue sur le fichier de mise &agrave; jour de la preMOD :</span><br/><br />
+<span style="font-weight: bold; color: red; font-size: 20;">ConviMod V1.4.8 vers ConviMod V1.5.0</span>
+      <br><br>
+      <span style="font-weight: bold;"><span style="text-decoration: underline;">Avant propos</span>
+:<br>
+      <br>
+      </span>Vous ne pouvez pas utiliser cette preMOD comme base
+pour commencer et/ou distribuer votre propre preMOD. Vous ne pouvez pas
+r&eacute;utiliser les scripts non-distribu&eacute;s
+pr&eacute;sents dans cette preMOD dans une autre preMOD ou sur
+votre forum personnel :<br>
+<ul>
+<li>soit ils sont en cours de
+d&eacute;veloppement,</li>
+<li>soit ils sont exclusifs &agrave; la preMOD ConviMod.</li>
+</ul>
+Il est demand&eacute; que les copyrights de la preMOD (nom, lien
+vers le site EzCom-fr et num&eacute;ro de version) visibles en bas
+de page soient conserv&eacute;s, par respect pour le travail
+effectu&eacute; pour vous offrir une preMOD de qualit&eacute;.
+Dans le cas o&ugrave; ceux-ci seraient supprim&eacute;s ou
+tronqu&eacute;s, aucun support ne sera effectu&eacute;.<br>
+      <br>
+      <span style="font-weight: bold;"><span style="text-decoration: underline;">MAJ</span>
+:</span><br>
+      <br>
+Pour mettre &agrave; jour votre preMod ConviMod V1.4.8 vers la V1.5.0 :
+<ul>
+<li>Connectez vous en tant qu'admin &agrave; votre forum.</li>
+<li>Sur votre FTP, videz le dossier <span style="font-style: italic;">cache</span></li>
+<li>Uploadez le dossier :</li>
+<ul>
+<li><img src="images/icon_folder.gif" alt="Dossier" border="0"> <span class="font-style:italic;">install</span></li>
+</ul>
+<li>puis lancer le script suivant depuis votre navigateur :</li>
+<ul>
+<li><img src="images/icon_file.gif" alt="Fichier" border="0"> <span style="font-style: italic;">install.php</span></li>
+</ul>
+<li>de la façon suivante :</li>
+<ul>
+<li>http://lien_de_votre_forum/install/install.php <br /> En choississant l'option <strong>Mis &agrave; jour</strong></li>
+</ul>
+<li>supprimez tout les fichiers et dossiers de votre ftp sauf :
+<ul>
+<li><img src="images/icon_folder.gif" alt="Dossier" border="0"> <span class="font-style:italic;">cache</span></li>
+<li><img src="images/icon_folder.gif" alt="Dossier" border="0"> <span class="font-style:italic;">files</span></li>
+<li><img src="images/icon_file.gif" alt="Fichier" border="0"> <span class="font-style:italic;">config.php</span></li>
+</ul>
+</li>
+<li>uploadez tous les dossiers de l'archive sauf :
+<ul>
+<li><img src="images/icon_folder.gif" alt="Dossier" border="0"> <span class="font-style:italic;">cache</span></li>
+<li><img src="images/icon_folder.gif" alt="Dossier" border="0"> <span class="font-style:italic;">files</span></li>
+<li><img src="images/icon_file.gif" alt="Fichier" border="0"> <span style="font-style: italic;">config.php</span></li>
+</ul>
+</ul>
+<br />
+Si vous avez une preMOD ConviMod 1.3.5 à 1.4.6
+<ul>
+<li>Utilisez le script <i>Clean Table</i> pour retourner vers un phpBB2 vanilla <i>(de base)</i> puis reportez-vous au fichier :
+<ul><li>MAJ_phpBB_to_convimod_1.5.0.html</li></ul>
+</ul>
+<br />
+<span style="font-weight: bold;"><span style="text-decoration: underline;">Un petit rappel</span> :</span> <br>
+      <br>
+01. <span style="text-decoration: underline;">CHMODs &agrave; effectuer</span> : <br>
+      <br>
+      <ul>
+        <img src="images/icon_folder.gif" alt="Dossier" border="0"> Dossier <span style="font-style: italic;">Root</span>
+( Racine du ftp )
+        <ul>
+          <img src="images/icon_folder.gif" alt="Dossier" border="0"> <span style="font-style: italic;">cache</span>
+: <span style="color: rgb(255, 0, 0);">CHMOD 777</span>
+          <br>
+	  <img src="images/icon_folder.gif" alt="Dossier" border="0"> <span style="font-style: italic;">efiles</span>
+: <span style="color: rgb(255, 0, 0);">CHMOD 777</span>
+          <br>
+          <img src="images/icon_folder.gif" alt="Dossier" border="0"> <span style="font-style: italic;">files</span>
+: <span style="color: rgb(255, 0, 0);">CHMOD 777</span>
+          <br>
+          <img src="images/icon_folder.gif" alt="Dossier" border="0"> <span style="font-style: italic;">includes</span>
+          <br>
+          <ul>
+            <img src="images/icon_file.gif" alt="Fichier" border="0"> <span style="font-style: italic;">def_bbc_box.php</span>
+: <span style="color: rgb(0, 0, 255);">CHMOD 666</span>
+          </ul>
+        </ul>
+      </ul>
+      <br>
+02. <span style="text-decoration: underline;">Liste des MODs install&eacute;s</span> : <br>
+      <br>
+      <ul>
+Vous trouverez l'ensemble des MODs install&eacute;s sur la
+preMOD en vous rendant &agrave; cette adresse :
+<a href="http://www.ezcom-fr.com/viewtopic.php?t=6570" arget="_blank" />ConviMod</a><br>
+        <br>
+Nous rappelons que les MODs install&eacute;s sur cette
+preMOD ne proviennent pas de nous. <br>
+Les Copyrights ont donc &eacute;t&eacute; laiss&eacute;s,
+ce qui est tout &agrave; fait normal. <br>
+Les d&eacute;veloppeurs des MODs et autres Add-Ons restent les
+d&eacute;tenteurs de ces MODs.
+      </ul>
+      <br>
+03. <span style="text-decoration: underline;">Les mises &agrave; jour de la preMOD</span> : <br>
+      <br>
+      <ul>
+        <img src="images/icon13.gif" alt="attention" border="0"> Il se peut que vous installiez des MODs suppl&eacute;mentaires.<br>
+      </ul>
+      <ul>
+Ayez toujours dans un r&eacute;pertoire adapt&eacute; sur votre
+syst&egrave;me l'ensemble des MODs et autres modifications que vous
+apportez &agrave; la preMOD. <br>
+En effet, lors des mises &agrave; jour ( phpBB, MODs, ... ), nous
+ne mettrons &agrave; jour que les fichiers d'origine. <img src="images/smile.gif" alt="sourire" border="0">
+      </ul>
+      <br>
+04. <span style="text-decoration: underline;">D&eacute;tenteurs de forum phpBB Vanilla ( Forum de base )</span> : <br>
+      <br>
+      <ul>
+Une mise &agrave; jour, sous forme d'un fichier SQL, va
+bient&ocirc;t sortir &eacute;galement. <br>
+Elle vous permettra d'actualiser votre base de donn&eacute;es afin
+d'&ecirc;tre compatible avec la preMOD ConviMod 1.5.x ...
+      </ul>
+      <br>
+05. <span style="text-decoration: underline;">Support de la preMOD</span> : <br>
+      <br>
+      <ul>
+Toute demande de support ne se fera que sur <a href="http://www.ezcom-fr.com" target="_blank" />EzCom-Fr</a>, et pas ailleurs. <br>
+Les r&egrave;gles du phpBB Group sont ainsi, et elles ne doivent
+pas &ecirc;tre chang&eacute;es. <br>
+        <br>
+Nous rappelons n&eacute;anmoins que, comme sur la preMOD
+1.1.x, 1.2.x, 1.3.x et 1.4.x, nous ne recommandons pas les h&eacute;bergeurs comme Free, ou
+tout autre h&eacute;bergeur ne supportant les CHMODs.
+      </ul>
+      <br>
+06. <span style="text-decoration: underline;">... Euh ...</span> <br>
+      <br>
+      <ul>
+Enjoy <img src="images/biggrin.gif" alt="Big Grin" border="0">
+      </ul>
+      <br>
+07. <span style="text-decoration: underline;">Remerciements</span> : <br>
+      <br>
+      <ul>
+La Team EzCom tient &agrave; remercier les utilisateurs de nos preMODs, sans vous nous ne serions pas l&agrave; <img src="images/smile.gif" alt="Smile" border="0"> <br>
+Nous tenons aussi &agrave; remercier les cr&eacute;ateurs de tous les MODs sans qui elles ne pourraient exister <img src="images/biggrin.gif" alt="Smile" border="0">.
+      </ul>
+      <br>
+      <span style="font-size: 9px; line-height: normal;">EzCom Team - <span style="font-style: italic;"><a href="http://www.ezcom-fr.com/" target="_blank" />EzCom-Fr</a></span></span>
+      </span></td>
+    </tr>
+    <tr>
+	<td align="center" valign="middle"><a href="http://www.ezcom-fr.com" target="_blank" /><img src="images/ezcom.gif" border="0" /></a>&nbsp;&nbsp;<a href="http://www.phpbb.com" target="_blank" /><img src="images/phpBB.gif" border="0" /></a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
