@@ -1,0 +1,1 @@
+- fix get_magic_quotes
